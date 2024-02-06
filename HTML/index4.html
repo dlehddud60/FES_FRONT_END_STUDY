@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/5d84deefe5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/index4.css">
+</head>
+<script>
+    const func = (param) => {
+        for (var i = 1; i <= 3; i++) {
+            $(`#big_imgID${i}`).hide();
+        }
+        $(`#big_imgID${param}`).show();
+    }
+    const func_menu = (param) => {
+        for (var i = 0; i <= 8; i++) {
+            $(`#secID${i}`).hide();
+        }
+        $(`#secID${param}`).show();
+    }
+</script>
+<body>
+<div class="back">
+    <video muted autoplay loop>
+        <source src="IMG/nebula_-_25047 (540p).mp4" type="video/mp4">
+    </video>
+</div>
+
+<ul class="title">
+    <li onclick="func_menu(1)">실버문화의 중요성</li>
+    <li onclick="func_menu(2)">노후를 위한 생활습관</li>
+    <li onclick="func_menu(3)">문화 예술과 창작활동</li>
+    <li onclick="func_menu(4)">디지털 기술의 활용</li>
+    <li onclick="func_menu(5)">지속 가능한 노후 활동</li>
+    <li onclick="func_menu(6)">실버 문화 성공 사례</li>
+    <li onclick="func_menu(7)">지역사회 협력</li>
+    <li onclick="func_menu(8)">가족 및 사회적 지원</li>
+</ul>
+<section id="secID0" class="sec0">
+<div class="menu">
+    <p>메뉴보기</p>
+    <ul class="sub">
+        <li>건강</li>
+        <li>픙요</li>
+        <li>재테크</li>
+        <li>문화</li>
+        <li>활동</li>
+    </ul>
+</div>
+
+<div class="tip">
+    <p>Tip</p>
+    <div>
+        새로운 정보를 알려드립니다.
+    </div>
+</div>
+<div class="big">
+    <div class="big_text1">
+        <p onclick="func(1)">규칙적인 운동과 활동</p>
+        <div class="big_img" id="big_imgID1">
+            <table>
+                <tr>
+                    <td >
+                        <img src="IMG/헬스.jpg" >
+                    </td>
+                    <td valign="top">
+                        <p>꾸준한 운동1</p>
+                        <p>꾸준한 운동2</p>
+                        <p>꾸준한 운동3</p>
+                        <p>꾸준한 운동4</p>
+                        <p>꾸준한 운동5</p>
+                        <p>꾸준한 운동6</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <p onclick="func(2)">규칙적인 식습관</p>
+        <div class="big_img" id="big_imgID2">
+            <table>
+                <tr>
+                    <td >
+                        <img src="IMG/닭찌찌.jpg" >
+                    </td>
+                    <td valign="top">
+                        <p>닭가슴살</p>
+                        <p>보충제</p>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <p onclick="func(3)">나만의 루틴</p>
+        <div class="big_img" id="big_imgID3">
+            <table>
+                <tr>
+                    <td >
+                        <img src="IMG/시계.jpg" >
+                    </td>
+                    <td valign="top">
+                        <p>무분할</p>
+                        <p>2분할</p>
+                        <p>3분할</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+</div>
+</div>
+</section>
+<section id="secID1" class="sec1">
+<div class="back1"></div>
+    <div class="sec1_title sec1_tit">공허의 방랑자</div>
+    <div class="sec1_title2 sec1_tit">힘의 균형은 유지되어야 한다!</div>
+    <div class="sec1_title3 sec1_tit">카사딘</div>
+    <div class="sec1_title4"><img src="IMG/카사딘q.png" alt=""></div>
+    <div class="sec1_title5"><img src="IMG/티모.png" alt=""></div>
+
+
+</section>
+<section id="secID2" class="sec2">메뉴 섹션-2
+<!--200-> 150 으로 애니메이션 만들기-->
+</section>
+<section id="secID3" class="sec3">메뉴 섹션-3</section>
+<section id="secID4" class="sec4">메뉴 섹션-4</section>
+<section id="secID5" class="sec5">메뉴 섹션-5</section>
+<section id="secID6" class="sec6">메뉴 섹션-6</section>
+<section id="secID7" class="sec7">메뉴 섹션-7</section>
+<section id="secID8" class="sec8">메뉴 섹션-8</section>
+</body>
+</html>

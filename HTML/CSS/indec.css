@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+}
+.title{
+    border: 1px solid black;
+    width: 100%; height: 70px;
+    background: linear-gradient(to right, rgb(229, 201, 229), rgb(204, 159, 236), rgb(163, 163, 255), rgb(148, 252, 148), rgb(246, 246, 176), rgb(251, 225, 176), rgb(243, 161, 161));
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 70px;
+}
+.menu {
+    width: 100%; height: 250px;
+    border: 0px solid black;
+    margin-top: 20px;
+}
+.menu div {
+    border: 0px solid green;
+    width: 200px; height: 100%;
+    float: left;
+}
+.menu .left {
+    width: 300px;
+}
+.menu .left p {
+    border: 1px solid #ccc;
+    line-height: 50px;
+    width: 100%; height: 48px;
+    text-indent: 20px;
+    cursor: pointer;
+}
+.menu .left p:hover{
+    background-color: black;
+    color: wheat;
+}
+
+.menu .right {
+    position: relative;
+    width: 700px;
+    top:0; left:0;
+    border: 0px solid red;
+}
+.menu .right div{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: 0px solid blue;
+    background: white;
+    display: flex;
+    justify-content : space-evenly;
+    flex-wrap: wrap;
+}
+.menu .right div .icon{
+    width: 30%; height: 150px;
+    font-size: 5rem;
+    border: 0px solid #ccc;
+    text-align: center;
+    line-height: 150px;
+    margin-top: 20px;
+}
+.menu .right div .icon_text {
+    width: 30%; height: 40px;
+    border: 0px solid blue;
+    text-align: center;
+    line-height: 40px;
+    font-size: 2rem;
+    margin-top: -20px
+}
+
+/* 메뉴(대분류) 에서 클릭 후 중분류 (아이콘) 선택하면 상세페이지 (소분류) 보이기 */
+.content {
+    position: absolute;
+    top: 100px; left:1000px;
+    width: 900px; height: 700px;
+    border: 1px solid orange;
+    background: white;
+    display: none;
+}
+.content .content_title {
+    width: 90%; height: 70px;
+    border: 0px solid red;
+    margin: 20px auto;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.content .content_title p {
+    border: 0px solid green;
+    border-radius: 20px;
+    width: 20%; height: 80%;
+     text-align: center;
+     line-height: 56px;
+     font-size: 2rem
+}
+.content .content_title p:hover {
+    cursor: pointer;
+    background: black;
+    color: white ;
+}
+
+.content .content3_box{
+   width: 100%; height: 50px;
+   border: 0px solid black;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.content .content3_box div{
+    width: 20%; height: 100%;
+    border: 1px solid purple; 
+   border-radius: 20px;
+   text-align: center;
+   line-height: 50px;
+   font-size: 1.5rem;
+   cursor: pointer;
+
+ }
+.content .content3_box div:hover{
+    background: cyan;
+}
+.content .content3_img{
+    width: 50%; height: 300px;
+    border: 1px solid rgb(44, 247, 166);
+    margin: 50px auto; 
+    text-align: center;
+    background: url(../IMG/img2.jpg);
+    background-size: 100% 100%;
+
+ }
+ .content .content3_img_text {
+    border: 0px solid blue;
+    width: 50%; height: 30px;
+    margin: -50px auto;
+    text-align: center;
+    line-height: 30px;
+ }
+ .content4{
+    border: 1px solid black;
+    background: url(../IMG/img3.jpg);
+    background-size: 100% 100%;
+ }
+
+
+.content .content15_box{
+    width: 90%; height: 500px;
+    border: 0px solid blue;
+    margin: 0 auto;
+    display: flex;
+}
+.content .content15_box div {
+    height: 100%;
+    border: 0px solid orange;
+    text-align: center;
+    
+}
+.content .content15_box div:first-child{
+    width: 70%;
+}
+.content .content15_box div:last-child{
+    width: 30%;
+}
+.content15_box div img {
+    width: 400px;
+    margin-top: 50px;
+            
+}
+.content .content15_box div p{
+   border: px solid #ccc;
+   width: 80%; height: 40px;
+   line-height: 40px; 
+   text-align: left;  
+   margin: 10px auto;
+   
+}
+
+.content1 {
+    display: block;
+}

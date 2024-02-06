@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/index3.css">
+</head>
+<body>
+    <!-- layout : 검정 배경 -->
+   <div class="layout">
+        <div class="left">
+            <div class="pic">
+                <img src="/IMG/2.jpg" alt="">
+            </div>
+            <p class="text1">백엔드 전문가</p>
+            <p class="text2">이동영</p>
+            <p class="text3">Lee dong young</p>
+
+            <p class="menu1 menu" onclick="func(1)">현재 상황</p>
+            <p class="menu2 menu" onclick="func(2)">목표 설정</p>
+            <p class="menu3 menu" onclick="func(3)">나의 강점</p>
+            <p class="menu4 menu" onclick="func(4)">개발 영역</p>
+            <p class="menu4 menu" onclick="func(5)">스킬 계획</p>
+            <p class="menu5 menu" onclick="func(6)">네트워킹 전략</p>
+
+            <p class="text4 left_text">연락처</p>
+            <p class="text5 left_text">010-3539-5685</p>
+            <p class="text6 left_text">dlehddud60@naver.com</p>
+            <p class="text7 left_text">서울시 서대문구 연세로 7길 20</p>
+        </div>
+        <script>
+            function func(js) {
+                right1.style.display="none";
+                right2.style.display="none";
+                right3.style.display="none";
+                right4.style.display="none";
+                right5.style.display="none";
+                right6.style.display="none";
+                this["right" + js].style.display="block";
+            }
+
+
+
+        </script>
+        <div class="right" id="right1">
+            <p>현재 상황</p>
+            <p>저는 백엔드 개발자 입니다.    
+            </p>
+            <p>저의 장점은 지구력 입니다.</p>
+        </div>
+        <div class="right" id="right2">
+            <p>목표 설정</p>
+            <p>어떤 직업에 도전하고 싶은지에 대한 비전 소개</p>
+            <p>3년후의 저는 00기업에서 인정받는 개발자가 되어 있을겁니다. </p>
+            <p>저는 00 목표로 하여 달성하기 위해 매일매일 개발자 양성과정에서만 공부하는것이 아닌 혹은 회사에서 업무로 끝나는것이 아닌 개인적인 시간을 투자하여 저의 개발 스킬 역량을 성장시켜 목표하는 회사에 도달하려고 합니다.</p>
+        </div>
+        <div class="right" id="right3">
+            <p>나의 강점</p>
+            
+            <p>저의 강점은 하나에 몰두하는것이 저의 강점이라고 생각합니다.</p>
+            <p>저의 강점은 하나에 몰두하는것이지만 동시에 여러가지를 하지 못하는 점이 있습니다. 하지만 이 부분도 메모를 하여 일의 우선순위를 정해 하나하나씩 해결하여 문제를 해결할 수 있었습니다.</p>
+        </div>
+        <div class="right" id="right4">
+            <p>개발 영역</p>
+            <p>앞으로는 AI 인공지능 분야가 미래산업의 먹거리라고 생각합니다.</p>
+            <p>현재는 자바언어를 기반으로 웹 백엔드 개발자를 하고 있습니다. 하지만 이를 바탕으로 실력을 쌓아 인공지능분야로 진출하여 미래 기술의 발전을 함께 하는 개발자가 되겠습니다.</p>
+        </div>
+        <div class="right" id="right5">
+            <p>개발 환경</p>
+            <p>Java8, Oracle,PostGre,MySQL, HTML5, Jquery, Spring, SpringBoot, JSP, thymeleaf </p>
+            <p>인텔리제이 VSCODE</p>
+        </div>
+        <div class="right" id="right6">
+            <p class="right_text">네트워킹 전략</p>
+            <p class="right_text">어떻게 전문 네트워크를 구축할 것인가?</p>
+            <p class="right_text">인터뷰 및 커리어 박람회 참여 계획</p>
+        </div>
+   </div>
+   
+   
+</body>
+</html>

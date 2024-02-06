@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index8.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Title</title>
+    
+    <script src="./Title_files/jquery-3.5.1.js"></script>
+    <script src="./Title_files/index8.js"></script>
+
+<script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script><link rel="stylesheet" href="./Title_files/index8.css"></head>
+<body>
+<ul class="menu">
+    <li>프로필</li>
+    <li>목표</li>
+    <li>비젼</li>
+    <li>기술스택</li>
+    <li>업무역량</li>
+    <li>프로젝트</li>
+    <li>학력사항</li>
+</ul>
+<div id="big">
+    <img src="./Title_files/일본거리야경2.jpeg" alt="" class="pic">
+</div>
+<div class="img7">
+    <div class="sub_img1" style="background: url(&quot;IMG/일본거리야경1.jpeg&quot;) 0% 0% / 100% 100%;">1</div>
+    <div class="sub_img2" style="background: url(&quot;IMG/일본거리야경2.jpeg&quot;) 0% 0% / 100% 100%;">2</div>
+    <div class="sub_img3" style="background: url(&quot;IMG/일본거리야경3.jpeg&quot;) 0% 0% / 100% 100%;">3</div>
+    <div class="sub_img4" style="background: url(&quot;IMG/일본거리야경4.jpeg&quot;) 0% 0% / 100% 100%;">4</div>
+    <div class="sub_img5" style="background: url(&quot;IMG/일본거리야경5.jpeg&quot;) 0% 0% / 100% 100%;">5</div>
+    <div class="sub_img6" style="background: url(&quot;IMG/일본거리야경6.jpeg&quot;) 0% 0% / 100% 100%;">6</div>
+    <div class="sub_img7" style="background: url(&quot;IMG/일본거리야경7.jpeg&quot;) 0% 0% / 100% 100%;">7</div>
+</div>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
