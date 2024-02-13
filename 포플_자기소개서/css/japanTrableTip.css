@@ -1,0 +1,113 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    border: 1px solid black;
+    width: 100%; height: 100px;
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 100px;
+}
+#top  {
+    border: 0px solid black;
+    width: 100%; height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background: dodgerblue;
+}
+#top .menu {
+    border: 0px solid blue;
+    width: 150px; height: 100%;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 150px;
+    transition: all 1s;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: #93ffbe;
+}
+#top  .menu:hover {
+    background: springgreen;
+    color: #f2f2f2;
+}
+
+.subMenuBar {
+    border: 0px solid black;
+    width: 60px; height: 60px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.subMenuBar:hover {
+    background: aquamarine;
+}
+.slideMenu {
+    position: absolute;
+    left: -20%;
+    border: 0px solid black;
+    width: 300px; height: 300px;
+    border-radius: 10px;
+    background: #a6a6ff;
+}
+
+.slideMenu div {
+    border: 0px solid black;
+    width: 80%; height: 50px;
+    margin: 30px auto;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+    transition: all 1s;
+    cursor: pointer;
+    background: gold;
+
+}
+.slideMenu div:hover {
+    background: palegreen;
+}
+section {
+    border: 1px solid black;
+    width: 80%; height: 500px;
+    margin: 30px auto;
+}
+section div {
+    border: 1px solid black;
+    width: 100%;
+}
+section .bigPhotoArea {
+    width: 40%; height: 100%;
+    float: left;
+
+}
+section .bigPhotoArea img{
+    width: 100%; height: 100%;
+
+}
+section .detail {
+    width: 60%; height: 100%;
+    float: right;
+
+}
+.smallPhotoArea {
+    border: 1px solid black;
+    width: 80%; height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.smallPhotoArea img{
+    width: 150px; height: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
