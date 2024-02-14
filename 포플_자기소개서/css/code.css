@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a {color: black}
+ㅊ
+section {
+    width: 80%; height: 500px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+section img {
+    width: 100%; height: 100%;
+}
+.pic_text {
+    width: 80%; height: 50px;
+    border: 1px solid black;
+    margin: 20px auto;
+    line-height: 50px;
+    font-size: 1.3rem;
+}

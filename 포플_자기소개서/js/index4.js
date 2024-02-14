@@ -49,7 +49,7 @@ const backA = [
     "menu0_bg0.jpeg","menu0_bg1.jpeg","menu0_bg2.jpeg","menu0_bg3.jpeg","menu0_bg4.jpeg"
 ];
 const backB = [
-    "win4.jpeg","menu1_bg1.jpeg","menu1_bg2.jpeg","menu1_bg3.jpeg","menu1_bg4.jpeg"
+    "win4.jpeg","menu1_bg1.jpeg","menu1_bg2.jpeg","menu1_bg3.jpeg","menu1_bg0.jpeg"
 ];
 let swi = 0, swi2 = 0;
 $(function (){
