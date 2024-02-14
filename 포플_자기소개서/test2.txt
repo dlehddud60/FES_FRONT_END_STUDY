@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script>
+        const imgArr = [
+            "wind0.jpeg","wind1.jpeg","wind2.jpeg",
+        ]
+        $(function () {
+            for (let i = 0; i < imgArr.length; i++) {
+            $(".imgArea img:eq("+i+")").attr("src","img/"+imgArr[i]+"");
+            }
+        })
+
+        /*
+             컴퓨터 그림 3개가 일정한 간격을 보이도록 img 태그를 사용하여 조건에 맞게 레이아웃을 구현하시오 (20점)
+             답안은 .txt 파일로 작성하여 첨부파일에 첨부
+
+             1. 그림은 가로 가운데 정렬 할 것
+             2. 그림 박스는 가로 300px, 세로 150px로 할 것
+             3. 그림은 임의로 선택해서 사용할 것
+        */
+    </script>
+    <style>
+        *{
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .imgArea {
+            border: 1px solid black;
+            width: 100%; height: 150px;
+            text-align: center;
+
+        }
+        .imgArea img{
+            width: 300px; height: 150px;
+            margin-left: 30px;
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+<div class="imgArea">
+    <img>
+    <img>
+    <img>
+</div>
+
+</body>
+</html>
